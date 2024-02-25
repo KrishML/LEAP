@@ -72,7 +72,7 @@ if __name__ == '__main__':
     # Parameters and Logging
     #########################
     l = 2
-    pop_size = 10
+    pop_size = 100
 
     # When running the test harness, just run for two generations
     # (we use this to quickly ensure our examples don't get bitrot)
@@ -81,7 +81,7 @@ if __name__ == '__main__':
         generations = 2
     else:
         test_mode = False
-        generations = 1000
+        generations = 10000
 
     # Uncomment these lines to see logs of what genomes and fitness values are sent to your external process.
     # This is useful for debugging a simulation.
